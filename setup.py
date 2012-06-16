@@ -22,6 +22,9 @@ CLASSIFIERS = [
 setup(name='django_mongodb_extras',
     packages=find_packages(exclude=('tests', 'tests.*')),
     include_package_data=True,
+    package_data={
+        '': ['*.js'],
+    },
     author='Vasily Alexeev',
     author_email='mail@v-alexeev.ru',
     url='http://v-alexeev.ru/',
