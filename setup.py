@@ -28,6 +28,6 @@ setup(name='django_mongodb_extras',
     long_description=LONG_DESCRIPTION,
     platforms=['any'],
     classifiers=CLASSIFIERS,
-    install_requires=[],
+    install_requires=['django-annoying'],
     version='0.1',
 )
